@@ -1,0 +1,257 @@
+body {
+margin: 0;
+padding: 0;
+font-family: 'Montserrat';
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 1280px;
+	margin: auto;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+header{
+	background: url(https://bodytech.com.co/uploads/post/03d28af749454db285945cd083f60507/109-entrenamiento-funcional.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header ul {
+	display: flex;
+}
+
+header ul li {
+	margin: 0 20px;
+}
+
+header ul li a {
+	color: #55FF33;
+	font-style: italic;
+	padding: 10px 5px;
+}
+
+.titular { 
+	text-align: center;
+	margin-top: 35vh;
+	color: white;
+}
+
+h1 {
+	font-size: 80px;
+	font-style: italic;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 40px;
+}
+
+.titular a {
+	background: #000;
+	color: #C2E71F;
+	padding: 20px 40px;
+}
+
+.contenedor-tarjetas {
+	display: flex;
+	justify-content: center;
+}
+
+.tarjeta {
+	text-align: center;
+	box-shadow: 1px 1px 1px #0000005f;
+	width: 30%;
+	margin-top: -100px;
+	background: white;
+	padding: 20px 0;
+	border-radius: 10px;
+}
+
+#segunda-tarjeta {
+	margin: 40px 90px;
+	margin-top: -100px;
+}
+
+.tarjeta p{
+	font-size: 12px;
+	text-align:center;
+}
+
+.flex-container {
+	display: flex;
+}
+
+#tarjetas {
+	margin-bottom: 100px;
+}
+
+.tarjeta a {
+	color: #000;
+	text-decoration: underline;
+	font-size: 14px;
+}
+
+.tarjeta h3 {
+	font-style: italic;
+}
+
+#classes {
+	background: #F6F6F6;
+	margin-top: -314px;
+	padding-top: 200px;
+}
+
+table {
+	width:100%;
+	text-align: center;
+}
+
+.blanco, th {
+	background: white;
+}
+
+th {
+	padding: 20px 0;
+	font-style: italic;
+}
+
+.gris {
+	background: E8E8E8;
+}
+
+.negrita {
+	font-weight: bold;
+}
+
+.horario {
+	font-style: italic;
+}
+
+h2 {
+	text-align: center;
+	font-size: 60px;
+	font-style: italic;
+}
+
+#galeria {
+	display: flex;
+	Flex-wrap: wrap;
+	margin-top:50px;
+}
+
+#galeria img {
+	width: 100%;
+}
+
+#galeria .foto{
+	width: 25%;
+	position: relative;
+	overflow: hidden;
+}
+
+.oculto {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #00000070;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	text-align: center;
+	display: none;
+}
+
+.oculto h4 {
+	position: relative;
+	top: 40%;
+}
+
+.agrandar {
+	transform: scale(1.2);
+	transition: 0.2s;
+}
+
+#contact {
+	background: #000;
+	text-align: center;
+	color: #fff;
+	padding: 60px 0;
+}
+
+#contact h2 {
+	margin: 0;
+}
+
+#contact svg {
+	color: #B8DE11;
+}
+
+.info {
+	display: flex;
+	justify-content: center;
+}
+
+.info p {
+	margin: 30px;
+}
+
+#contact a {
+	background: B8DE11;
+	color: #000;
+	font-style: italic;
+	padding: 20px 40px;
+	display: inline-block;
+	margin-top: 30px;
+}
+
+@media (max-width: 800px){
+	.menu {
+		padding-top: 10px;
+	}
+	
+	header ul {
+		flex-direction: column;
+		margin-top: 30px;
+	}
+	
+	nav {
+		background: #000;
+		width: 100%;
+		position: absolute;
+		top:45px;
+		left: 0;
+		display: none;
+	}
+	
+	nav ul li{
+		margin-bottom: 20px;
+	}
+	
+	h1 {
+		font-size: 30px;
+	}
+	
+	.flex-container {
+		flex-direction: colum;
+	}
+	
+	.tarjeta {
+		width: 100%;
+	}
+	
+	#segunda-tarjeta {
+		margin: 0;
+	}
+}
